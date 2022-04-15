@@ -3,7 +3,10 @@ word = ''
 rstring = "REVERSE"
 
 i = 1
-l = len(rstring)
+l = 0
+
+for each in rstring:
+  l+=1
 
 while i < l:
   for each in rstring:
