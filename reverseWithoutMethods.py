@@ -3,12 +3,12 @@ word = ''
 rstring = "REVERSE"
 
 i = 1
-l = 0
+length = 0
 
 for each in rstring:
-  l+=1
+  length+=1
 
-while i < l:
+while i < length:
   for each in rstring:
     word += rstring[-i]
     i+=1
